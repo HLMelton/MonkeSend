@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '/src/components/Home.vue'
-import Sidebar from '/src/components/Sidebar.vue'
+import MonkeSend from '/src/components/MonkeSend.vue'
 
 const routes = [
     {
@@ -9,10 +9,10 @@ const routes = [
     component: Home
     },
     {
-    path:'/test',
-    name: 'Test',
-    component: Sidebar
-    }
+    path:'/monkesend',
+    name: 'MonkeSend',
+    component: MonkeSend
+    },
 ]
 
 const router = createRouter({
