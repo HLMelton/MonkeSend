@@ -13,10 +13,11 @@
               <option value="builder">Monke Builder</option>
           </select>
 
-          <div class="terms">
+          <div class="terms" required>
               <input type="checkbox" className="inline-block w-4 relative m-3" required v-model="terms">
               <label>Accept Terms and Conditions</label>
           </div>
+          <button> Go Monke </button>
       </form>
       <div className="relative bg-left">
         <img src="/src/assets/Monke.png">

@@ -1,7 +1,4 @@
 <template>
-    <div className="fixed top-0">
-        <h1>Home</h1>
-    </div>
     <p>Name in Store is : {{ name }}</p>
 </template>
 
