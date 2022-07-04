@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '/src/components/Home.vue'
 import MonkeSend from '/src/components/MonkeSend.vue'
 import About from '/src/components/About.vue'
+import ThreeBG from '/src/components/ThreeBG.vue'
 
 const routes = [
     {
@@ -18,6 +19,11 @@ const routes = [
     path:'/about',
     name:'',
     component: About
+    },
+    {
+    path:'/ThreeBG',
+    name:'ThreeBG',
+    component: ThreeBG
     }
 ]
 

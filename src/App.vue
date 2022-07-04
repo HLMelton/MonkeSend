@@ -8,10 +8,12 @@ export default {
 
 
 <template>
-  <SideBar />
-    <div className="content-center">
+  <div className="flex flex-row">
+    <SideBar />
+    <div className="content-container">
       <router-view />
     </div>
+  </div>
 </template>
 
 <style>
