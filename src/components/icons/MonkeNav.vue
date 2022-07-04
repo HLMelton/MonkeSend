@@ -5,7 +5,7 @@ export default {
 }
 
 </script>
-
+//Currently Inactive --
 // This SVG needs to be updated and I am working on a actual SVG File conversion. Finally 
 
 <template>

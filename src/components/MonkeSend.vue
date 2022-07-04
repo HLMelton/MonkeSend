@@ -1,7 +1,8 @@
 <template>
+<!-- I need to reformat some of the stuff in here so make it centered and more appealing..... and fix that damn monkey. Tomorrow though. Signing off -->
   <div className="bg-gray">
       <form className="max-w-sm m-auto bg-white text-left p-10 rounded">
-          <h1>MonkeSend</h1>
+            <h1 className="">MonkeSend</h1>
           <label className="inline-block text-color-slate-600">Email:</label>
           <input type="email" required v-model="email">
 
